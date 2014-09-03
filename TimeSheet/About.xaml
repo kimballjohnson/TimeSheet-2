@@ -1,0 +1,53 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="TimeSheet.About"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Image HorizontalAlignment="Left" Grid.Column="0" Grid.Row="0" Source="/object1722183432.png"/>
+        <phone:Pivot Grid.Row="1" Grid.Column="0">
+            <phone:PivotItem Header="About">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" Grid.Row="0" TextWrapping="Wrap">
+                        TimeSheeet 1.0.2.3 
+                        <LineBreak></LineBreak>
+                        Irá facilitar sua vida ao marcar as horas trabalhadas para serus clientes.
+                        <LineBreak />
+                        <LineBreak />
+                        Você poderá cadastrar seus clientes e registrar suas horas, podendo descrever cada tarefa e no final pode exportar para excel ou enviar por e-mail o registro to mês ou de um período determinado.
+                        <LineBreak />
+                        <LineBreak />
+                        é um produto da empresa G e T Informática LTDA.
+                        <LineBreak />
+                        Contato: suporte@getempresa.com.br
+                        
+                    </TextBlock>
+                </Grid>
+            </phone:PivotItem>
+        </phone:Pivot>
+    </Grid>
+</phone:PhoneApplicationPage>
