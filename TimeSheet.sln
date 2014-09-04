@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WP8.Timesheet.Domain", "WP8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WP8.Timesheet.Persistencia", "WP8.Timesheet.Persistencia\WP8.Timesheet.Persistencia.csproj", "{6633C2CC-E73C-49EE-944B-64E68B1D7F04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WP8.Timesheet.InstancePhone", "WP8.Timesheet.InstancePhone\WP8.Timesheet.InstancePhone.csproj", "{033DFD8A-6812-45D6-8136-3A206599AEAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,24 @@ Global
 		{6633C2CC-E73C-49EE-944B-64E68B1D7F04}.Release|ARM.Build.0 = Release|ARM
 		{6633C2CC-E73C-49EE-944B-64E68B1D7F04}.Release|x86.ActiveCfg = Release|x86
 		{6633C2CC-E73C-49EE-944B-64E68B1D7F04}.Release|x86.Build.0 = Release|x86
+		{033DFD8A-6812-45D6-8136-3A206599AEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{033DFD8A-6812-45D6-8136-3A206599AEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{033DFD8A-6812-45D6-8136-3A206599AEAF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{033DFD8A-6812-45D6-8136-3A206599AEAF}.Debug|ARM.ActiveCfg = Debug|ARM
+		{033DFD8A-6812-45D6-8136-3A206599AEAF}.Debug|ARM.Build.0 = Debug|ARM
+		{033DFD8A-6812-45D6-8136-3A206599AEAF}.Debug|ARM.Deploy.0 = Debug|ARM
+		{033DFD8A-6812-45D6-8136-3A206599AEAF}.Debug|x86.ActiveCfg = Debug|x86
+		{033DFD8A-6812-45D6-8136-3A206599AEAF}.Debug|x86.Build.0 = Debug|x86
+		{033DFD8A-6812-45D6-8136-3A206599AEAF}.Debug|x86.Deploy.0 = Debug|x86
+		{033DFD8A-6812-45D6-8136-3A206599AEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{033DFD8A-6812-45D6-8136-3A206599AEAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{033DFD8A-6812-45D6-8136-3A206599AEAF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{033DFD8A-6812-45D6-8136-3A206599AEAF}.Release|ARM.ActiveCfg = Release|ARM
+		{033DFD8A-6812-45D6-8136-3A206599AEAF}.Release|ARM.Build.0 = Release|ARM
+		{033DFD8A-6812-45D6-8136-3A206599AEAF}.Release|ARM.Deploy.0 = Release|ARM
+		{033DFD8A-6812-45D6-8136-3A206599AEAF}.Release|x86.ActiveCfg = Release|x86
+		{033DFD8A-6812-45D6-8136-3A206599AEAF}.Release|x86.Build.0 = Release|x86
+		{033DFD8A-6812-45D6-8136-3A206599AEAF}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
